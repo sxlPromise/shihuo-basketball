@@ -1,0 +1,34 @@
+html, body, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, input, p, textarea, fieldset, legend, form, select {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px; }
+
+fieldset, img {
+  border: none; }
+
+a {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+b, strong, i, em, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px; }
+
+img {
+  vertical-align: middle; }
+
+.clearfn:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clearfn {
+  zoom: 1; }
