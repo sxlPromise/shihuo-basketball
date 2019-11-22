@@ -1,0 +1,11 @@
+body {
+    background: url(../images/background.jpg) center center; }
+#login{
+    width: 400px;
+     margin: 100px auto
+    }
+#alert_info{ 
+    padding: 2px; 
+    text-align: center; 
+    display: none;
+}

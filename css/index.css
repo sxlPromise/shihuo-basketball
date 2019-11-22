@@ -241,7 +241,6 @@
   .contentpricebox .contentprice {
     width: 1080px;
     height: 300px;
-    background: #fff;
     margin: 0 auto; }
     .contentpricebox .contentprice .title {
       height: 55px;
@@ -312,43 +311,43 @@
           position: relative;
           z-index: 30;
           top: -35px; }
-      .contentpricebox .contentprice .goods ul {
+      .contentpricebox .contentprice .goods .goodul {
         width: 2150px;
         height: 245px;
         overflow: hidden;
         position: relative;
         left: 0;
-        background: #f1f1f1; }
-        .contentpricebox .contentprice .goods ul li {
+        background: #fff; }
+        .contentpricebox .contentprice .goods .goodul li {
           float: left;
           width: 215px;
           height: 250px;
           margin-top: 20px; }
-          .contentpricebox .contentprice .goods ul li a .img {
+          .contentpricebox .contentprice .goods .goodul li a .img {
             width: 170px;
             height: 160px;
             margin: 0 auto; }
-            .contentpricebox .contentprice .goods ul li a .img img {
+            .contentpricebox .contentprice .goods .goodul li a .img img {
               width: 100%;
               height: 100%; }
-          .contentpricebox .contentprice .goods ul li a .msg {
+          .contentpricebox .contentprice .goods .goodul li a .msg {
             margin-top: 15px;
             padding: 0 15px;
             background: url(//sh1.hoopchina.com.cn/fis_static/trade/static/sports/images/newIndex/bor_59ab01b.png) no-repeat right center; }
-            .contentpricebox .contentprice .goods ul li a .msg p {
+            .contentpricebox .contentprice .goods .goodul li a .msg p {
               color: #333;
               font-weight: 700;
               height: 20px;
               line-height: 20px;
               overflow: hidden; }
-            .contentpricebox .contentprice .goods ul li a .msg .price {
+            .contentpricebox .contentprice .goods .goodul li a .msg .price {
               margin-top: 5px;
               overflow: hidden; }
-              .contentpricebox .contentprice .goods ul li a .msg .price .left {
+              .contentpricebox .contentprice .goods .goodul li a .msg .price .left {
                 float: left;
                 color: #FF4338;
                 font-weight: 700; }
-              .contentpricebox .contentprice .goods ul li a .msg .price .right {
+              .contentpricebox .contentprice .goods .goodul li a .msg .price .right {
                 float: right;
                 color: #333;
                 text-decoration: line-through; }

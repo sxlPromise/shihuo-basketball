@@ -1,0 +1,554 @@
+/* header */
+.headerbox {
+  background: #fff; }
+  .headerbox .header {
+    width: 1080px;
+    height: 85px;
+    background-color: #fff;
+    margin: 0 auto; }
+    .headerbox .header .left {
+      width: 204px;
+      height: 50px;
+      float: left;
+      margin-top: 10px; }
+      .headerbox .header .left img {
+        width: 100%;
+        height: 100%; }
+    .headerbox .header .middle {
+      width: 504px;
+      height: 37px;
+      float: left;
+      margin: 20px 0 0 50px;
+      position: relative; }
+      .headerbox .header .middle input {
+        width: 450px;
+        height: 33px;
+        border: 1px solid red;
+        float: left; }
+      .headerbox .header .middle .search {
+        display: block;
+        float: left;
+        width: 30px;
+        height: 33px;
+        background-color: red;
+        border: 1px solid red;
+        text-align: center;
+        line-height: 33px; }
+        .headerbox .header .middle .search .iconfont {
+          font-size: 18px;
+          color: white;
+          font-weight: 900; }
+      .headerbox .header .middle .tags {
+        position: absolute;
+        top: 8px;
+        left: 280px; }
+        .headerbox .header .middle .tags a {
+          float: left;
+          background-color: #fff;
+          border: 1px solid #666;
+          border-radius: 10px;
+          font-size: 14px;
+          margin-left: 10px;
+          width: 40px;
+          color: #999;
+          text-align: center;
+          background-color: #f3f3f3; }
+    .headerbox .header .right {
+      width: 194px;
+      height: 70px;
+      float: right;
+      margin-top: 5px; }
+
+/* content */
+.contentbox {
+  background: #fff; }
+  .contentbox .content {
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .contentbox .content .cart-layout .cart-title {
+      overflow: hidden;
+      font-size: 12px;
+      position: relative; }
+      .contentbox .content .cart-layout .cart-title .switch-cart {
+        overflow: hidden;
+        height: 33px; }
+        .contentbox .content .cart-layout .cart-title .switch-cart .btn-switch-cart:first-child {
+          float: left;
+          font-weight: 700;
+          font-size: 16px;
+          height: 16px;
+          line-height: 1.1;
+          font-family: 'Hiragino Sans GB','Lantinghei SC','Microsoft Yahei',SimSun;
+          text-align: center;
+          padding: 0 0 15px 0;
+          cursor: pointer;
+          margin-left: -1px; }
+          .contentbox .content .cart-layout .cart-title .switch-cart .btn-switch-cart:first-child a {
+            padding-left: 15px;
+            text-decoration: none; }
+            .contentbox .content .cart-layout .cart-title .switch-cart .btn-switch-cart:first-child a em {
+              color: #f40; }
+            .contentbox .content .cart-layout .cart-title .switch-cart .btn-switch-cart:first-child a .number {
+              color: #f40;
+              font-size: 14px;
+              margin: 0 30px 0 5px;
+              font-weight: 400; }
+            .contentbox .content .cart-layout .cart-title .switch-cart .btn-switch-cart:first-child a .pipe {
+              width: 1px;
+              height: 12px;
+              display: inline-block;
+              background: #e8e8e8; }
+        .contentbox .content .cart-layout .cart-title .switch-cart .btn-switch-cart {
+          float: left;
+          font-weight: 700;
+          font-size: 16px;
+          height: 16px;
+          line-height: 1.1;
+          font-family: 'Hiragino Sans GB','Lantinghei SC','Microsoft Yahei',SimSun;
+          text-align: center;
+          padding: 0 0 15px 0;
+          cursor: pointer;
+          margin-left: -1px; }
+          .contentbox .content .cart-layout .cart-title .switch-cart .btn-switch-cart a {
+            padding-left: 15px;
+            text-decoration: none; }
+            .contentbox .content .cart-layout .cart-title .switch-cart .btn-switch-cart a em {
+              color: #333; }
+            .contentbox .content .cart-layout .cart-title .switch-cart .btn-switch-cart a .number {
+              color: #333;
+              font-size: 14px;
+              margin: 0 30px 0 5px;
+              font-weight: 400; }
+            .contentbox .content .cart-layout .cart-title .switch-cart .btn-switch-cart a .pipe {
+              width: 1px;
+              height: 12px;
+              display: inline-block;
+              background: #e8e8e8; }
+      .contentbox .content .cart-layout .cart-title .cart-num {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 25px;
+        line-height: 25px; }
+        .contentbox .content .cart-layout .cart-title .cart-num .price {
+          font-family: Arial,Verdana;
+          font-weight: 700;
+          margin-right: 5px;
+          color: #f40; }
+          .contentbox .content .cart-layout .cart-title .cart-num .price .smallTotal {
+            font-family: Arial,Verdana;
+            font-weight: 700;
+            padding-left: 2px; }
+            .contentbox .content .cart-layout .cart-title .cart-num .price .smallTotal .total {
+              font-size: 12px;
+              font-weight: 400; }
+        .contentbox .content .cart-layout .cart-title .cart-num .submit-btn {
+          display: inline-block;
+          width: 55px;
+          color: #fff;
+          background: #f40;
+          border-radius: 3px;
+          text-align: center;
+          cursor: pointer; }
+      .contentbox .content .cart-layout .cart-title .wrap-line {
+        background: #e6e6e6;
+        height: 2px;
+        position: relative; }
+        .contentbox .content .cart-layout .cart-title .wrap-line .floater {
+          width: 123px;
+          left: -1px;
+          background: #f40;
+          height: 2px;
+          position: absolute;
+          top: 0;
+          overflow: hidden; }
+    .contentbox .content .cart-layout .cart-main .cart-table {
+      overflow: hidden;
+      height: 50px;
+      line-height: 50px;
+      color: #3c3c3c; }
+      .contentbox .content .cart-layout .cart-main .cart-table .wp {
+        width: 1080px;
+        margin: 0 auto; }
+        .contentbox .content .cart-layout .cart-main .cart-table .wp .th {
+          float: left; }
+        .contentbox .content .cart-layout .cart-main .cart-table .wp .th-chk {
+          width: 45px;
+          font-size: 12px;
+          text-align: center;
+          position: relative;
+          height: 50px; }
+          .contentbox .content .cart-layout .cart-main .cart-table .wp .th-chk .select-all {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100px; }
+            .contentbox .content .cart-layout .cart-main .cart-table .wp .th-chk .select-all .cart-checkbox {
+              margin: -1px 0 0 15px;
+              vertical-align: middle;
+              position: relative;
+              display: inline-block;
+              width: 15px;
+              height: 15px;
+              overflow: hidden; }
+              .contentbox .content .cart-layout .cart-main .cart-table .wp .th-chk .select-all .cart-checkbox #selectallbtn1 {
+                position: absolute;
+                z-index: 0;
+                left: -20px;
+                top: -20px; }
+              .contentbox .content .cart-layout .cart-main .cart-table .wp .th-chk .select-all .cart-checkbox label {
+                position: relative;
+                z-index: 1;
+                float: left;
+                width: 15px;
+                height: 15px;
+                background-position: 0 0;
+                line-height: 200em;
+                overflow: hidden;
+                cursor: pointer;
+                background: transparent url(//gw.alicdn.com/tfs/TB1boCXfmCWBuNjy0FhXXb6EVXa-800-600.png) no-repeat 2px 0px; }
+        .contentbox .content .cart-layout .cart-main .cart-table .wp .th-item {
+          width: 320px; }
+          .contentbox .content .cart-layout .cart-main .cart-table .wp .th-item .td-inner {
+            font-size: 12px;
+            padding-left: 140px; }
+        .contentbox .content .cart-layout .cart-main .cart-table .wp .th-info {
+          width: 192px;
+          padding-right: 20px; }
+          .contentbox .content .cart-layout .cart-main .cart-table .wp .th-info .td-inner {
+            height: 50px;
+            padding-left: 20px; }
+        .contentbox .content .cart-layout .cart-main .cart-table .wp .th-price {
+          width: 140px; }
+          .contentbox .content .cart-layout .cart-main .cart-table .wp .th-price .td-inner {
+            height: 50px;
+            padding-left: 20px;
+            font-size: 14px; }
+        .contentbox .content .cart-layout .cart-main .cart-table .wp .th-amount {
+          width: 130px; }
+          .contentbox .content .cart-layout .cart-main .cart-table .wp .th-amount .td-inner {
+            height: 50px;
+            padding-left: 20px;
+            font-size: 14px; }
+        .contentbox .content .cart-layout .cart-main .cart-table .wp .th-sum {
+          width: 105px; }
+          .contentbox .content .cart-layout .cart-main .cart-table .wp .th-sum .td-inner {
+            height: 50px;
+            padding-left: 20px;
+            font-size: 14px; }
+        .contentbox .content .cart-layout .cart-main .cart-table .wp .th-op {
+          width: 85px;
+          padding-left: 15px; }
+          .contentbox .content .cart-layout .cart-main .cart-table .wp .th-op .td-inner {
+            height: 50px;
+            padding-left: 20px;
+            font-size: 14px; }
+    .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order {
+      overflow: hidden; }
+      .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .shop {
+        position: relative;
+        height: 38px;
+        background: #fff;
+        overflow: hidden; }
+        .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .shop .shop-info {
+          position: relative;
+          z-index: 2;
+          line-height: 38px;
+          padding-left: 15px;
+          font-size: 14px; }
+          .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .shop .shop-info .cart-checkbox {
+            margin: -1px 0 0 15px;
+            vertical-align: middle;
+            position: relative;
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            overflow: hidden; }
+            .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .shop .shop-info .cart-checkbox #selectallbtn1 {
+              position: absolute;
+              z-index: 0;
+              left: -20px;
+              top: -20px; }
+            .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .shop .shop-info .cart-checkbox label {
+              position: relative;
+              z-index: 1;
+              float: left;
+              width: 15px;
+              height: 15px;
+              background-position: 0 0;
+              line-height: 200em;
+              overflow: hidden;
+              cursor: pointer;
+              background: transparent url(//gw.alicdn.com/tfs/TB1boCXfmCWBuNjy0FhXXb6EVXa-800-600.png) no-repeat 2px 0px; }
+          .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .shop .shop-info a {
+            margin-left: 20px; }
+      .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent {
+        overflow: hidden;
+        border: 1px solid #ccc; }
+        .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td {
+          float: left;
+          height: 119px; }
+        .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-chk {
+          position: relative;
+          overflow: hidden;
+          margin-left: 20px; }
+          .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-chk .td-inner {
+            padding-top: 20px; }
+            .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-chk .td-inner .cart-checkbox {
+              margin: 0 10px 0 0;
+              float: right;
+              position: relative;
+              display: inline-block;
+              width: 15px;
+              height: 15px;
+              overflow: hidden; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-chk .td-inner .cart-checkbox #checkbox {
+                position: absolute;
+                z-index: 0;
+                left: 20px;
+                top: 20px; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-chk .td-inner .cart-checkbox label {
+                position: relative;
+                z-index: 1;
+                float: left;
+                width: 15px;
+                height: 15px;
+                background-position: 0 0;
+                line-height: 200em;
+                overflow: hidden;
+                cursor: pointer;
+                background: transparent url(//gw.alicdn.com/tfs/TB1boCXfmCWBuNjy0FhXXb6EVXa-800-600.png) no-repeat 2px 0px; }
+        .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item {
+          width: 320px;
+          margin-left: 30px; }
+          .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner {
+            padding-top: 20px; }
+            .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner .item-pic {
+              background: #fff;
+              width: 80px;
+              height: 80px;
+              border: 1px solid #eee;
+              float: left;
+              overflow: hidden; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner .item-pic a {
+                display: table-cell;
+                width: 80px;
+                height: 80px;
+                vertical-align: middle;
+                text-align: center; }
+                .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner .item-pic a img {
+                  max-width: 80px;
+                  max-height: 80px;
+                  vertical-align: middle; }
+            .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner .item-info {
+              margin: -3px 0 0 91px;
+              padding-right: 25px; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner .item-info .item-basic-info {
+                min-height: 40px; }
+                .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner .item-info .item-basic-info a {
+                  font-size: 12px;
+                  display: block;
+                  height: 36px;
+                  overflow: hidden;
+                  text-overflow: ellipsis; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner .item-info .item-other-info .promo-logos {
+                overflow: hidden;
+                height: 26px; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner .item-info .item-other-info .item-icon-list .item-icons {
+                margin-bottom: 3px; }
+                .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner .item-info .item-other-info .item-icon-list .item-icons .item-icon {
+                  display: inline-block;
+                  margin-right: 5px;
+                  margin-bottom: 5px; }
+                  .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-item .td-inner .item-info .item-other-info .item-icon-list .item-icons .item-icon img {
+                    vertical-align: middle; }
+        .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-info .item-props {
+          padding: 16px 0;
+          height: 84px;
+          border: 1px dashed transparent;
+          position: relative; }
+          .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-info .item-props .sku-line {
+            margin: 0 5px 0 15px;
+            color: #9c9c9c;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 12px; }
+        .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-price {
+          color: #9c9c9c;
+          margin-left: 60px; }
+          .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-price .td-inner {
+            padding-top: 12px; }
+            .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-price .td-inner .item-price .price-content {
+              padding: 8px 0 0 10px;
+              line-height: 1;
+              width: 74px; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-price .td-inner .item-price .price-content .price-line {
+                padding: 0 0 4px 0; }
+                .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-price .td-inner .item-price .price-content .price-line .price-now {
+                  color: #3c3c3c;
+                  font-weight: 700;
+                  font-family: Verdana,Tahoma,arial; }
+        .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-amount {
+          width: 120px;
+          margin-left: 60px; }
+          .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-amount .td-inner {
+            padding-top: 20px; }
+            .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-amount .td-inner .amount-wrapper .item-amount {
+              height: 25px;
+              overflow: hidden;
+              position: relative;
+              z-index: 1;
+              width: 77px; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-amount .td-inner .amount-wrapper .item-amount a {
+                display: block;
+                height: 23px;
+                width: 17px;
+                border: 1px solid #e5e5e5;
+                text-align: center;
+                line-height: 23px;
+                position: absolute;
+                top: 0;
+                float: left; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-amount .td-inner .amount-wrapper .item-amount .minus {
+                left: 0; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-amount .td-inner .amount-wrapper .item-amount .plus {
+                right: 0; }
+              .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-amount .td-inner .amount-wrapper .item-amount .text-amount {
+                width: 39px;
+                height: 15px;
+                line-height: 15px;
+                border: 1px solid #aaa;
+                text-align: center;
+                padding: 4px 0;
+                background: #fff;
+                background-position: -75px -375px;
+                position: absolute;
+                z-index: 2;
+                left: 18px;
+                top: 0;
+                float: left; }
+        .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-sum {
+          color: #f40;
+          font-weight: 700;
+          width: 105px;
+          margin-left: 20px; }
+          .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-sum .td-inner {
+            padding-top: 20px; }
+            .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-sum .td-inner .number {
+              font-family: Verdana,Tahoma,arial; }
+        .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-op {
+          width: 84px;
+          padding-left: 15px; }
+          .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-op .td-inner {
+            padding-top: 17px; }
+            .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-op .td-inner .btn-fav {
+              display: block;
+              padding-bottom: 3px;
+              color: #3c3c3c;
+              font-size: 14px; }
+            .contentbox .content .cart-layout .cart-main .orderList .orderHolder .order .ordercontent .item-content .td-op .td-inner .del {
+              display: block;
+              padding-bottom: 3px;
+              color: #3c3c3c;
+              font-size: 14px; }
+
+/* footer */
+.footer .foot-tips-box {
+  border-top: 1px dotted #dbdbdb;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 10px; }
+
+.footer .foot-aboutus-bg {
+  background-color: #f6f6f6;
+  padding: 15px 0;
+  margin-top: 20px; }
+  .footer .foot-aboutus-bg .foot-aboutus {
+    position: relative;
+    margin: 0 auto;
+    width: 1050px;
+    padding-left: 30px; }
+    .footer .foot-aboutus-bg .foot-aboutus ul {
+      text-align: center;
+      padding: 0 30px; }
+      .footer .foot-aboutus-bg .foot-aboutus ul li {
+        display: inline-block;
+        margin: 0 30px;
+        vertical-align: top;
+        float: none;
+        background: url("../images/a1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+        font-family: "Microsoft YaHei";
+        line-height: 2em;
+        padding-left: 50px;
+        padding-top: 5px; }
+        .footer .foot-aboutus-bg .foot-aboutus ul li dl dt {
+          color: #222;
+          font-size: 16px;
+          margin-bottom: 5px; }
+        .footer .foot-aboutus-bg .foot-aboutus ul li dl dd a {
+          color: #666;
+          font-size: 12px; }
+      .footer .foot-aboutus-bg .foot-aboutus ul .sjzx {
+        display: inline-block;
+        margin: 0 30px;
+        vertical-align: top;
+        float: none;
+        background: url("../images/a2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); }
+        .footer .foot-aboutus-bg .foot-aboutus ul .sjzx dl dt {
+          color: #222;
+          font-size: 16px;
+          margin-bottom: 5px; }
+        .footer .foot-aboutus-bg .foot-aboutus ul .sjzx dl dd a {
+          color: #666;
+          font-size: 12px; }
+      .footer .foot-aboutus-bg .foot-aboutus ul .sjyy {
+        display: inline-block;
+        margin: 0 30px;
+        vertical-align: top;
+        float: none;
+        background: url("../images/a3.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); }
+        .footer .foot-aboutus-bg .foot-aboutus ul .sjyy dl dt {
+          color: #222;
+          font-size: 16px;
+          margin-bottom: 5px; }
+        .footer .foot-aboutus-bg .foot-aboutus ul .sjyy dl dd a {
+          color: #666;
+          font-size: 12px; }
+      .footer .foot-aboutus-bg .foot-aboutus ul .gywm {
+        display: inline-block;
+        margin: 0 30px;
+        vertical-align: top;
+        float: none;
+        background: url("../images/a4.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); }
+        .footer .foot-aboutus-bg .foot-aboutus ul .gywm dl dt {
+          color: #222;
+          font-size: 16px;
+          margin-bottom: 5px; }
+        .footer .foot-aboutus-bg .foot-aboutus ul .gywm dl dd a {
+          color: #666;
+          font-size: 12px; }
+
+.footer .friendly-link {
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 10px 40px;
+  width: 900px;
+  color: #999;
+  font-size: 12px;
+  font-family: "Microsoft YaHei"; }
+  .footer .friendly-link .securityPic {
+    text-align: center;
+    margin-bottom: 30px; }
+    .footer .friendly-link .securityPic p {
+      margin-bottom: 8px;
+      line-height: 2em;
+      text-align: center; }
+      .footer .friendly-link .securityPic p a {
+        border: medium none;
+        color: #999;
+        font-size: 12px;
+        font-family: "Microsoft YaHei" !important;
+        padding: 0 5px; }
+    .footer .friendly-link .securityPic span {
+      padding: 0 5px; }

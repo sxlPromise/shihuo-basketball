@@ -9,7 +9,8 @@ fieldset, img {
   border: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #333; }
 
 ul, ol {
   list-style: none; }

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/cart.min.css">
+    <script src="js/require.js" async = "true" defer data-main="js/cart.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header  class = "headerbox">
+        <header class="header">
+            <div class="left">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="middle">
+                <input id="search" type="text" placeholder="输入海外商品链接或关键词，点击搜索一键购">
+                <a class="search" href="#"><i class="iconfont">&#xe62b;</i></a>
+                <div id="tags" class="tags">
+                    <a href="#">Nike</a>
+                    <a href="#">AJ</a>
+                    <a href="#">adidas</a>
+                </div>
+            </div>
+            <div class="right">
+                <a href=""><img src="images/qrcode.png" alt=""></a>
+            </div>
+        </header>
+    </header>
+    <!--content  -->
+    <div class="contentbox">
+        <div class="content">
+            <div class="cart-layout">
+                <div class="cart-title">
+                    <ul class="switch-cart">
+                        <li class="btn-switch-cart">
+                            <a href="">
+                                <em>全部商品</em>
+                                <span class="number">1</span>
+                                <span class="pipe"></span>
+                            </a>
+                        </li>
+                        <li class="btn-switch-cart">
+                            <a href="">
+                                <em>降价商品</em>
+                                
+                                <span class="pipe"></span>
+                            </a>
+                        </li>
+                        <li class="btn-switch-cart">
+                            <a href="">
+                                <em>库存紧张</em>
+                                
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="cart-num">
+                        <span class="pay-text">已选商品（不含运费）</span>
+                        <strong class="price">
+                            <em class="smallTotal">
+                                <span class="total">0.00</span>
+                            </em>
+                        </strong>
+                        <a href="" class="submit-btn">结 算</a>
+                    </div>
+                    <div class="wrap-line">
+                        <div class="floater"></div>
+                    </div>
+                </div>
+                <div class="cart-main">
+                    <div class="cart-table">
+                        <div class="wp">
+                            <div class="th th-chk">
+                                <div class="select-all">
+                                    <div class="cart-checkbox">
+                                        <input type="checkbox" id="selectallbtn1" name="select-all" value="true">
+                                        <label for="selectallbtn1">勾选购物车内所有商品</label>
+                                    </div>
+                                    全选
+                                </div>
+                            </div>
+                            <div class="th th-item">
+                                <div class="td-inner">商品信息</div>
+                            </div>
+                            <div class="th th-info">
+                                <div class="td-inner"></div>
+                            </div>
+                            <div class="th th-price">
+                                <div class="td-inner">单价</div>
+                            </div>
+                            <div class="th th-amount">
+                                <div class="td-inner">数量</div>
+                            </div>
+                            <div class="th th-sum">
+                                <div class="td-inner">金额</div>
+                            </div>
+                            <div class="th th-op">
+                                <div class="td-inner">操作</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="orderList">
+                        <div class="orderHolder">
+                            <!-- <div class="order">
+                                <div class="shop">
+                                    <div class="shop-info">
+                                        <div class="cart-checkbox">
+                                            <input type="checkbox" id="selectallbtn1" name="select-all" value="true">
+                                            <label for="selectallbtn1">勾选购物车内所有商品</label>
+                                        </div>
+                                        店铺
+                                        <a href="" class="">JJ Sneaker运动潮</a>
+                                    </div>
+                                </div>
+                                <div class="ordercontent">
+                                    <ul class="item-content">
+                                        <li class="td td-chk">
+                                            <div class="td-inner">
+                                                <div class="cart-checkbox">
+                                                    <input type="checkbox" id="checkbox" name="item[]" value="true">
+                                                    <label for="checkbox"></label>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="td td-item">
+                                            <div class="td-inner">
+                                                <div class="item-pic">
+                                                    <a href="">
+                                                        <img src="https://img.alicdn.com/bao/uploaded/i4/37355518/O1CN0128Fgo51qdI3Ak058r_!!37355518.jpg_80x80.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="item-info">
+                                                    <div class="item-basic-info">
+                                                        <a href="">NIKE LEBRON 16 LOW詹姆斯16 LBJ16南海岸男低帮篮球鞋CI2669-301</a>
+                                                    </div>
+                                                    <div class="item-other-info">
+                                                        <div class="promo-logos"></div>
+                                                        <div class="item-icon-list">
+                                                            <div class="item-icons">
+                                                                <span class="item-icon">
+                                                                    <img src="//assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="">
+                                                                </span>
+                                                                <a href="" class="item-icon">
+                                                                    <img src="//img.alicdn.com/tps/i3/T1bnR4XEBhXXcQVo..-14-16.png" alt="">
+                                                                </a>
+                                                                <a href="" class="item-icon">
+                                                                    <img src="//img.alicdn.com/tps/i1/T1EQA5FpVgXXceOP_X-16-16.jpg" alt="">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item-tips"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="td td-info">
+                                            <div class="item-props">
+                                                <p class="sku-line">鞋码：44.5</p>
+                                                <p class="sku-line">颜色分类：南海岸</p>
+                                            </div>
+                                        </li>
+                                        <li class="td td-price">
+                                            <div class="td-inner">
+                                                <div class="item-price">
+                                                    <div class="price-content">
+                                                        <div class="price-line">
+                                                            <em class="price-now">￥819.00</em>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="td td-amount">
+                                            <div class="td-inner">
+                                                <div class="amount-wrapper">
+                                                    <div class="item-amount">
+                                                        <a href="" class="minus">-</a>
+                                                        <input type="text" value="1" class="text-amount">
+                                                        <a href="" class="plus">+</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="td td-sum">
+                                            <div class="td-inner">
+                                                <em class="number1">￥819.00</em>
+                                            </div>
+                                        </li>
+                                        <li class="td td-op">
+                                            <div class="td-inner">
+                                                <a href="" class="btn-fav">移入收藏夹</a>
+                                                <a href="" class="del">删除</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="foot-tips-box"></div>
+        <div class="foot-aboutus-bg">
+            <div class="foot-aboutus">
+                <ul>
+                <li>
+                    <dl>
+                        <dt>关于我们</dt>
+                        <dd><a href="#">关于识货</a></dd>
+                        <dd><a href="#">联系我们</a></dd>
+                        <dd><a href="#">加入我们</a></dd>
+                        <dd><a href="#">意见反馈</a></dd>
+                        <dd><a href="#">用户协议</a></dd>
+                    </dl>
+                </li>
+                <li class="sjzx">
+                    <dl>
+                        <dt>商家中心</dt>
+                        <dd><a href="#">团购入驻</a></dd>
+                        <dd><a href="#">商家合作</a></dd>
+                    </dl>
+                </li>
+                <li class="sjyy">
+                        <dl>
+                            <dt>手机应用</dt>
+                            <dd><a href="#">iPhone 客户端</a></dd>
+                            <dd><a href="#">Android 客户端</a></dd>
+                        </dl>
+                </li>
+                <li class="gywm">
+                        <dl>
+                            <dt>关注我们</dt>
+                            <dd><a href="#">微信</a></dd>
+                            <dd><a href="#">新浪微博</a></dd>
+                        </dl>
+                </li> 
+                </ul>
+            </div>
+        </div>
+        <div class="friendly-link">
+            <div class="securityPic">
+                <p>
+                    上海识致信息科技有限责任公司 沪B2-20120042
+                    <a href="#">沪ICP备19023651号-1</a>
+                </p>
+                <a href="#">
+                    <img src="//www.shihuo.cn/images/trade/shanghaiGSicon.gif" alt="上海工商">
+                </a>
+                <span></span>
+                <a href="#">
+                    <img src="//b3.hoopchina.com.cn/images/wl_wljga.png" alt="金华市公安局网络报警">
+                </a>
+                <span></span>
+                <a href="#">
+                    <img src="//b3.hoopchina.com.cn/images/wl_wlshzxw.png" alt="网络社会征信网">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

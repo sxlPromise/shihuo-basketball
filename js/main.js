@@ -8,6 +8,9 @@ define(["jquery","jquery-cookie"],function($){
             $("#tags").css("display","block");
             $("#search").html("")
         })
+        /* $(".leftlist a").click(function(){
+            return false;
+        }) */
     }
     function topnav(){
         //顶部导航栏数据下载
@@ -116,7 +119,7 @@ define(["jquery","jquery-cookie"],function($){
         }
     }
 
-    function leftnav(){
+    function leftnav(){ // 加载侧边栏数据
         $.ajax({
             type:"get",
             url:"../json/leftnav.json",
@@ -142,24 +145,24 @@ define(["jquery","jquery-cookie"],function($){
                     node.appendTo($(".leftnav"));
                     var node2 = $(`
                             <div>${arr[i].title}</div>
-                            <div><a href="">更多></a></div>
+                            <div><a href="#">更多></a></div>
                         `);
                     node2.appendTo(node.find($(".leftnavlist-title")));
                     var titleArr = arr[i].subtitle;
                     for(var j = 0; j < titleArr.length; j++){
-                        var node1 = $(`<a href="">${titleArr[j]}</a>`);
+                        var node1 = $(`<a href="#">${titleArr[j]}</a>`);
                         node1.appendTo(node.find($(".tags")));
                     }
                     for(var k = 0; k < titleArr.length; k++){
                         var node3 = $(`
-                        <li><a href="">${titleArr[k]}</a></li>
+                        <li><a href="#">${titleArr[k]}</a></li>
                     `);
                         node3.appendTo(node.find($(".leftnavlist-name")));
                     }
                     var logoArr = arr[i].img;
                     for(var l =0; l < logoArr.length; l++){
                         var node4 = $(`<li>
-                        <a href="">
+                        <a href="#">
                             <img src="${logoArr[l]}" alt="">
                         </a>
                     </li>`);
@@ -173,7 +176,7 @@ define(["jquery","jquery-cookie"],function($){
         })
     }
 
-    function leftnavTab(){
+    function leftnavTab(){ // 侧边栏动画
         $(".leftnav").on("mouseenter",".leftlist",function(){
             $(this).find(".leftnavbox").show();
         });
@@ -181,7 +184,7 @@ define(["jquery","jquery-cookie"],function($){
             $(this).find(".leftnavbox").hide();
         });
     }
-    function goodPrice(){
+    function goodPrice(){ // 加载每日好价数据
         $.ajax({
             type:"get",
             url:"../json/goods.json",
@@ -189,7 +192,7 @@ define(["jquery","jquery-cookie"],function($){
                 goodsArr = obj.goodprice;
                 for(var i = 0; i < goodsArr.length; i++){
                     var node = $(`<li>
-                    <a href="">
+                    <a href="#">
                         <div class="img">
                             <img src="${goodsArr[i].img}" alt="">
                         </div>
@@ -210,7 +213,7 @@ define(["jquery","jquery-cookie"],function($){
             }
         })
     }
-    function goodTab(){
+    function goodTab(){  // 每日好价动画
         $(".goods").mouseover(function(){
             if($(".goodul").offset().left == 91.5){
                 $("#every_right").css("display","block");
@@ -237,7 +240,7 @@ define(["jquery","jquery-cookie"],function($){
             $("#every_left").css("display","none");
         })
     }
-    function list(){
+    function list(){ // 加载销量排行数据
         $.ajax({
             type:"get",
             url:"../json/goods.json",
@@ -265,7 +268,7 @@ define(["jquery","jquery-cookie"],function($){
             }
         })
     }
-    function listTab(){
+    function listTab(){ // 销量排行动画
         $(".goodlist").mouseover(function(){
             if($(".listul").offset().left == 81.5){
                 $("#list_right").css("display","block");
@@ -292,7 +295,7 @@ define(["jquery","jquery-cookie"],function($){
             $("#list_left").css("display","none");
         })
     }
-    function likes(){
+    function likes(){ // 加载猜你喜欢数据
         $.ajax({
             type:"get",
             url:"../json/goods.json",
@@ -300,7 +303,7 @@ define(["jquery","jquery-cookie"],function($){
                 var likeArr = obj.likesgood;
                 for(var i = 0; i < likeArr.length; i++){
                     var node = $(`<li>
-                    <a href="">
+                    <a href="#">
                         <div class="img">
                             <img src="${likeArr[i].img}" alt="">
                         </div>
